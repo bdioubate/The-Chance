@@ -1,17 +1,17 @@
 <script>
-import LoginVue from './components/login.vue';
+import Login from './components/login.vue';
 
 export default {
     name: "App",
     components: {
-        LoginVue
+        Login
     }
 }
 </script>
 
 <template>
         <h1>Welcome to Chance</h1>
-        <LoginVue />
+        <router-view></router-view>
 </template>
 
 <style scoped>
